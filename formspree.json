@@ -1,0 +1,13 @@
+{
+  "forms": {
+    "contactFirst": {
+      "name": "Contact Form",
+      "fields": {
+        "email": { "type": "email", "required": true },
+        "name": { "type": "name", "required": true },
+        "message": { "type": "text", "required": true }
+      },
+      "actions": [{ "type": "email", "to": "puranjay@growthpub.com" }]
+    }
+  }
+}
